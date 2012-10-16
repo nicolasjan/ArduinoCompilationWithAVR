@@ -11,12 +11,19 @@ The advantages of this solution are :
 INSTALLATION
 ------------
 * Debian/Ubuntu<br/>
-<code>apt-get install ...</code>	
+<code>apt-get install avr-libc avrdude binutils-avr arduino-core</code>	
 * Windows<br/>
 	
 COMPILATION
 -----------
-
+To compile, place into the project directory and run make<br/>
+<code>cd ArduinoCompilationWithAVR/
+make</code>
 
 UPLOAD
 ------
+
+USE
+---
+* Display USB trace<br/>
+<code>cat /dev/ttyACM0</code>
