@@ -16,12 +16,15 @@ INSTALLATION
 	
 COMPILATION
 -----------
-To compile, place into the project directory and run make<br/>
-<code>cd ArduinoCompilationWithAVR/
+To compile, place you into the project directory and run make<br/>
+<code>cd ArduinoCompilationWithAVR/<br/>
 make</code>
 
 UPLOAD
 ------
+To upload, place you into the project directory and run make upload<br/>
+<code>cd ArduinoCompilationWithAVR/<br/>
+make upload</code>
 
 USE
 ---
